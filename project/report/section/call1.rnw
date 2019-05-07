@@ -1,0 +1,9 @@
+
+
+I am call 1. From within call 1, I shall call 2.
+
+If there is nothing below here, call 2 did not run.
+
+% This chunk errors out and rnw will not compile when eval=TRUE
+<<child-call2, child="../support/call2.rnw", eval=TRUE>>=
+@

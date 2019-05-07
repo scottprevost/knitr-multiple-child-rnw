@@ -1,0 +1,22 @@
+<<setup, cache=FALSE, echo=FALSE, error=TRUE, eval=TRUE, include=FALSE, message=FALSE, warning=FALSE>>=
+library(knitr)
+# knitr::opts_knit$set(root.dir="./")
+@
+
+
+\documentclass{article}
+
+\begin{document}
+
+Hello
+
+Here is call 1.
+
+<<child-call1, child="section/call1.rnw", eval=TRUE>>=
+@
+
+
+
+
+
+\end{document}
